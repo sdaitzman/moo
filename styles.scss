@@ -17,6 +17,17 @@ body, html {
     margin-bottom: 30px;
 }
 
+.cowbox {
+    position: fixed;
+    top: 0;
+    width: 300px;
+    margin-left: 475px;
+  }
+.cow {
+ 
+    width: 1500px;
+}
+
 /* unvisited link */
 a:link {
     color: red;
