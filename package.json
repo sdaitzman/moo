@@ -1,0 +1,30 @@
+{
+  "name": "moo",
+  "version": "1.0.0",
+  "description": "Milk crate purchase 🥛",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdaitzman/moo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdaitzman/moo/issues"
+  },
+  "homepage": "https://github.com/sdaitzman/moo#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.3"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "typeface-roboto-mono": "0.0.75"
+  }
+}
