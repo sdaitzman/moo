@@ -12,7 +12,27 @@ body, html {
     background: #7cc6aa;
     border-radius: 20px;
     padding: 20px;
-    color: white;
+    color: #FFFDEA;
     max-width: 400px;
     margin-bottom: 30px;
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
