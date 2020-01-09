@@ -1,49 +1,79 @@
-body, html {
-    background: #f2c9ce;
-    font-family: 'Roboto Mono','Consolas',monospace;
+body {
+  transition: position 1s ease, display 1s ease, width 1s ease, margin 1s ease, padding 1s ease;
+  height: 100vh;
+  background: url('cow.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 250px;
 }
 
 .body-container {
-    margin-left: 30px;
-    margin-top: 30px;
+  background: #f2c9ce;
+  font-family: 'Roboto Mono', 'Consolas', monospace;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
 }
 
-.box {
-    background: #7cc6aa;
-    border-radius: 20px;
-    padding: 20px;
-    color: #FFFDEA;
-    max-width: 400px;
-    margin-bottom: 30px;
+.box, .milk-crates {
+  box-sizing: border-box;
+  background: #7cc6aa;
+  border-radius: 20px;
+  padding: 20px;
+  color: #FFFDEA;
+  width: 360px;
+  margin: 15px auto;
 }
+.milk-crates { background: unset;color: unset }
 
 .cowbox {
-    position: fixed;
-    top: 0;
-    width: 300px;
-    margin-left: 475px;
-  }
+  display: none;
+}
+
 .cow {
- 
-    width: 1500px;
+  width: 1500px;
 }
 
 /* unvisited link */
 a:link {
-    color: red;
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    background: none;
   }
-  
-  /* visited link */
-  a:visited {
-    color: green;
+
+  .body-container {
+    display: flex;
+    position: unset;
+    width: 100%;
   }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
+
+  .cowbox {
+    display: flex;
   }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
+
+  .box, .milk-crates { width: 90% }
+}
