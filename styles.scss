@@ -19,9 +19,7 @@
   cursor: help;
   text-decoration: none;
 
-  &:hover:after {
-    animation: emoji-clarification 1s ease infinite;
-  }
+  &:hover:after { animation: emoji-clarification 1s ease infinite }
 
   &:after {
     content: "";
@@ -79,10 +77,6 @@ body {
 
 .cowbox {
   display: none;
-}
-
-.cow {
-  width: 1500px;
 }
 
 /* unvisited link */
