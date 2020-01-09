@@ -24,6 +24,7 @@
     "sass": "^1.24.3"
   },
   "dependencies": {
+    "emoji-clarification": "^1.0.2",
     "normalize.css": "^8.0.1",
     "typeface-roboto-mono": "0.0.75"
   }
