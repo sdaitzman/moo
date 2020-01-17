@@ -116,13 +116,13 @@ a:active {
   }
 
   .cowbox {
-    display: flex;
+    display: block;
   }
-
-  .box, .milk-crates { width: 90% }
 
   .cow {
     width: 100%;
     height: auto;
   }
+
+  .box, .milk-crates { width: 90% }
 }
